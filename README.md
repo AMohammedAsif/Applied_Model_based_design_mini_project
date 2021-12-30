@@ -8,4 +8,4 @@ This is a basic demo of simulation of an ABS system using Simulink. This file co
 
 
 ## output of the model
-![Autopilot - Simulink](https://github.com/AMohammedAsif/Applied_Model_based_design_mini_project/blob/main/Model.png)
+![Autopilot - Simulink](https://github.com/AMohammedAsif/Applied_Model_based_design_mini_project/blob/main/output.png)
