@@ -38,11 +38,10 @@ When finished, the completed model should appear as shown below.
 
  ## Building the state-space model
  
+ 
  ![Autopilot - Simulink](https://github.com/AMohammedAsif/Applied_Model_based_design_mini_project/blob/main/Picture4.png)
  
- 
- 
- We will now build a Simulink model of the above equations. One option is to build a model of the plant with state-feedback that emulates the figure shown below.
+  We will now build a Simulink model of the above equations. One option is to build a model of the plant with state-feedback that emulates the figure shown below.
  ![Autopilot - Simulink](https://github.com/AMohammedAsif/Applied_Model_based_design_mini_project/blob/main/statefeedback_pitch2.png)
  
  
