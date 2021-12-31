@@ -17,7 +17,7 @@ The above equations match the general, linear state-space form.
 
 
 
-![Autopilot - Simulink]()
+![Autopilot - Simulink](https://github.com/AMohammedAsif/Applied_Model_based_design_mini_project/blob/main/Picture1.png)
 
 
 ![Autopilot - Simulink]()
