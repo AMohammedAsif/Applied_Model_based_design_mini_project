@@ -38,7 +38,7 @@ When finished, the completed model should appear as shown below.
 
  ## Building the state-space model
  
- ![Autopilot - Simulink]()
+ ![Autopilot - Simulink](https://github.com/AMohammedAsif/Applied_Model_based_design_mini_project/blob/main/Picture4.png)
  
  
  
