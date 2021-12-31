@@ -6,7 +6,7 @@ The equations governing the motion of an aircraft are a very complicated set of 
 
 In this example we will simulate the linearized aircraft model with the state-feedback controller designed earlier in the example. We will specifically use the linearized state-space model obtained in Aircraft Pitch: System Modeling page.
 
-![Autopilot - Simulink]()
+![Autopilot - Simulink](https://github.com/AMohammedAsif/Applied_Model_based_design_mini_project/blob/main/Equation.png)
 
 
 This is a basic demo of simulation of an ABS system using Simulink. This file complements [this YouTube video](https://youtu.be/CJGlKCfGEA0)
