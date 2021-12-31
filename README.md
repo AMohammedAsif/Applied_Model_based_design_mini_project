@@ -9,7 +9,7 @@ In this example we will simulate the linearized aircraft model with the state-fe
 ![Autopilot - Simulink](https://github.com/AMohammedAsif/Applied_Model_based_design_mini_project/blob/main/Equation.png)
 
 The above equations match the general, linear state-space form.
-![Autopilot - Simulink]()
+![Autopilot - Simulink](https://github.com/AMohammedAsif/Applied_Model_based_design_mini_project/blob/main/difference.png)
 
 
 This is a basic demo of simulation of an SIMPLE AUTOPILOT DESIGN
