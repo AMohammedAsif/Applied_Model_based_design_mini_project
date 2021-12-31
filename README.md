@@ -6,15 +6,24 @@ The equations governing the motion of an aircraft are a very complicated set of 
 
 In this example we will simulate the linearized aircraft model with the state-feedback controller designed earlier in the example. We will specifically use the linearized state-space model obtained in Aircraft Pitch: System Modeling page.
 
+
+ # This is a basic demo of simulation of an SIMPLE AUTOPILOT DESIGN
+ using Matlab & Simulink. This file complements [this YouTube video](https://youtu.be/CJGlKCfGEA0)
+
 ![Autopilot - Simulink](https://github.com/AMohammedAsif/Applied_Model_based_design_mini_project/blob/main/Equation.png)
 
 The above equations match the general, linear state-space form.
 ![Autopilot - Simulink](https://github.com/AMohammedAsif/Applied_Model_based_design_mini_project/blob/main/difference.png)
 
 
-This is a basic demo of simulation of an SIMPLE AUTOPILOT DESIGN
- using Matlab & Simulink. This file complements [this YouTube video](https://youtu.be/CJGlKCfGEA0)
- 
+
+![Autopilot - Simulink]()
+
+
+![Autopilot - Simulink]()
+
+
+
  ## Building the state-space model
  
  We will now build a Simulink model of the above equations. One option is to build a model of the plant with state-feedback that emulates the figure shown below.
