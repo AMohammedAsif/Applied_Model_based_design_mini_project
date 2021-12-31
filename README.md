@@ -28,6 +28,11 @@ Double-click on the State-Space block and enter the system parameters as shown i
 ![Autopilot - Simulink](https://github.com/AMohammedAsif/Applied_Model_based_design_mini_project/blob/main/Picture1.png)
 
 
+Note, that in the above figure the $C$ matrix is entered as a 3x3 identity matrix using the eye command rather than [0 0 1] as given in the original state-space equations. The reason for this is because in state-feedback control it is assumed that all of the state variables are measured, not just the output. If this is not the case, then an observer needs to be designed to estimate any state variables that are not measured. Refer to the Introduction: State-Space Methods for Controller Design page, for further detail.
+
+When finished, the completed model should appear as shown below.
+
+
 ![Autopilot - Simulink](https://github.com/AMohammedAsif/Applied_Model_based_design_mini_project/blob/main/Picture3b.png)
 
 
