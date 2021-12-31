@@ -16,6 +16,14 @@ The above equations match the general, linear state-space form.
 ![Autopilot - Simulink](https://github.com/AMohammedAsif/Applied_Model_based_design_mini_project/blob/main/difference.png)
 
 
+Open Simulink and open a new model window.
+Insert a Step block from the Simulink/Sources library.
+To provide an appropriate step input at t=0, double-click the Step block and set the Step time to "0". Also set the Final value to "0.2" to represent the 0.2-radian reference we are assuming.
+Insert a Demux block from the Simulink/Signal Routing library. Double-click on the block and enter "3" for the Number of outputs; one output for each of the three state variables.
+Insert a Scope from the Simulink/Sinks library and connect the third output of the Demux block to the scope. We will only plot the third state variable which corresponds to the system's output which is the aircraft's pitch theta.
+Add Terminator blocks from the Simulink/Sinks library to the two signals of the Demux block that we are not plotting.
+Insert a State-Space block from the Simulink/Continuous library and connect the input to the Step block and the output to the Demux block.
+Double-click on the State-Space block and enter the system parameters as shown in the figure below.
 
 ![Autopilot - Simulink](https://github.com/AMohammedAsif/Applied_Model_based_design_mini_project/blob/main/Picture1.png)
 
