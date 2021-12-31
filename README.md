@@ -15,7 +15,7 @@ This is a basic demo of simulation of an SIMPLE AUTOPILOT DESIGN
  ## Building the state-space model
  
  We will now build a Simulink model of the above equations. One option is to build a model of the plant with state-feedback that emulates the figure shown below.
- ![Autopilot - Simulink]()
+ ![Autopilot - Simulink](https://github.com/AMohammedAsif/Applied_Model_based_design_mini_project/blob/main/statefeedback_pitch2.png)
  
  
 
